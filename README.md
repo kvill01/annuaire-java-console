@@ -104,3 +104,7 @@ Ce projet est sous licence libre. Vous pouvez l'utiliser, le modifier et le dist
 
 ---
 **Sawadogo Abdel Kaled** - [GitHub](https://github.com/kvill01)
+
+---
+
+⭐ N'hésitez pas à donner une étoile si ce projet vous a été utile !
