@@ -2,7 +2,7 @@ package bf.annuaire.service;
 
 import bf.annuaire.model.Contact;
 import bf.annuaire.repository.ContactRepository;
-
+ 
 import java.util.List;
 
 public class ContactManager {
