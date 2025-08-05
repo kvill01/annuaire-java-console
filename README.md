@@ -103,5 +103,4 @@ Les contributions sont les bienvenues ! N'hésitez pas à :
 Ce projet est sous licence libre. Vous pouvez l'utiliser, le modifier et le distribuer librement.
 
 ---
-
-**Développé avec ❤️ en Java par SAWADOGO Abdel Kaled**
+**Sawadogo Abdel Kaled** - [GitHub](https://github.com/kvill01)
