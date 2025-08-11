@@ -21,7 +21,8 @@ public class ConsoleUI {
             System.out.println("1. Lister les contacts");
             System.out.println("2. Ajouter un contact");
             System.out.println("3. Supprimer un contact");
-            System.out.println("4. Quitter");
+            System.out.println("4. Vider le repertoire");
+            System.out.println("5. Quitter");
             System.out.print("Votre choix : ");
 
             while (!scanner.hasNextInt()) {
@@ -36,11 +37,12 @@ public class ConsoleUI {
                 case 1 -> afficherContacts();
                 case 2 -> ajouterContact();
                 case 3 -> supprimerContact();
-                case 4 -> System.out.println("Au revoir !");
+                case 4 -> viderContacts();
+                case 5 -> System.out.println("Au revoir !");
                 default -> System.out.println("Choix invalide.");
             }
 
-        } while (choix != 4);
+        } while (choix != 5);
     }
 
     private void afficherContacts() {
@@ -77,5 +79,9 @@ public class ConsoleUI {
         } else {
             System.out.println("❌ Aucun contact trouvé avec ce numéro !!!");
         }
+    }
+
+    private void viderContacts() {
+        manager.viderContacts();
     }
 }

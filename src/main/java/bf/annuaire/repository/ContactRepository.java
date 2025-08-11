@@ -70,4 +70,12 @@ public class ContactRepository {
 
         return supprime; // ✅ On indique si le contact a été supprimé
     }
+
+    public void viderListe() {
+        try(BufferedWriter writer = new BufferedWriter(new FileWriter(fichier))){
+            System.out.println("Le repertoire a été vidé avec succès !");
+        }catch (IOException e) {
+            throw new RuntimeException("Erreur lors de la vidange" + e);
+        }
+    }
 }

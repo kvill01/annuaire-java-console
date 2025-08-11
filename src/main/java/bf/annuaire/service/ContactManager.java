@@ -24,4 +24,8 @@ public class ContactManager {
     public List<Contact> listerContacts() {
         return repository.chargerTous();
     }
+
+    public void viderContacts() {
+        repository.viderListe();
+    }
 }
